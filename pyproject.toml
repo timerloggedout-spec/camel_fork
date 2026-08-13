@@ -41,7 +41,7 @@ dependencies = [
 upgrade = false
 
 [project.dependency-groups]
-test = ["pytest>=7,<8", "mock>=5,<6", "pytest-asyncio>=0.23.0,<0.24"]
+test = ["pytest>=7,<10", "mock>=5,<6", "pytest-asyncio>=0.23.0,<0.24"]
 
 [project.optional-dependencies]
 dev = [
@@ -49,11 +49,11 @@ dev = [
     "mypy>=1.5.1,<2",
     "toml>=0.10.2",
     "pre-commit>=3,<4",
-    "pytest>=7,<8",
+    "pytest>=7,<10",
     "pytest-cov>=4,<5",
     "pytest-asyncio>=0.23.0,<0.24",
-    "setuptools>=78.1.1,<79",
-    "gradio>=3,<4",
+    "setuptools>=78.1.1,<84",
+    "gradio>=3,<7",
     "mock>=5,<6",
     "types-colorama>=0.4.15,<0.5",
     "types-PyYAML>=6.0.12,<7",
@@ -61,7 +61,7 @@ dev = [
     "types-tqdm>=4.66.0,<5",
     "types-requests>=2.31.0,<3",
     "types-setuptools>=75.8.0,<76",
-    "uv>=0.7.0,<0.8",
+    "uv>=0.7.0,<0.12",
     "Flask>=2.0",
 ]
 docs = [
@@ -141,7 +141,7 @@ document_tools = [
 media_tools = [
     "imageio[pyav]>=2.34.2,<3",
     "pydub>=0.25.1,<0.26",
-    "yt-dlp>=2024.11.4,<2025",
+    "yt-dlp>=2024.11.4,<2027",
     "ffmpeg-python>=0.2.0,<0.3",
     "scenedetect>=0.6.5.2",
     "pytesseract>=0.3.13",
@@ -194,7 +194,7 @@ dev_tools = [
     "langfuse>=2.60.5",
 ]
 model_platforms = [
-    "litellm>=1.38.1,<1.80.12",
+    "litellm>=1.38.1,<1.84.1",
     "mistralai>=1.1.0,<2",
     "reka-api>=3.0.8,<4",
     "anthropic>=0.89.0,<0.90.0",
@@ -250,7 +250,7 @@ owl = [
     "pydub>=0.25.1,<0.26",
     "ffmpeg-python>=0.2.0,<0.3",
     "imageio[pyav]>=2.34.2,<3",
-    "yt-dlp>=2024.11.4,<2025",
+    "yt-dlp>=2024.11.4,<2027",
     "scenedetect>=0.6.5.2",
     "twelvelabs>=1.2.8,<2",
     "beautifulsoup4>=4,<5",
@@ -299,7 +299,7 @@ eigent = [
     "pydub>=0.25.1,<0.26",
     "ffmpeg-python>=0.2.0,<0.3",
     "imageio[pyav]>=2.34.2,<3",
-    "yt-dlp>=2024.11.4,<2025",
+    "yt-dlp>=2024.11.4,<2027",
     "scenedetect>=0.6.5.2",
     "xls2xlsx>=0.2.0",
     "tabulate>=0.9.0",
@@ -379,7 +379,7 @@ all = [
     "textblob>=0.17.1,<0.18",
     "scholarly[tor]==1.7.11",
     "notion-client>=2.2.1,<3",
-    "yt-dlp>=2024.11.4,<2025",
+    "yt-dlp>=2024.11.4,<2027",
     "ffmpeg-python>=0.2.0,<0.3",
     "datacommons-client[pandas]>=2.1.5",
     "tavily-python>=0.5.0,<0.6",
@@ -398,7 +398,7 @@ all = [
     "markitdown>=0.1.1; python_version >= '3.13'",
     "nebula3-python==3.8.2",
     "rank-bm25>=0.2.2,<0.3",
-    "litellm>=1.38.1,<1.80.12",
+    "litellm>=1.38.1,<1.84.1",
     "mistralai>=1.1.0,<2",
     "fish-audio-sdk>=1.0.0",
     "anthropic>=0.89.0,<0.90.0",
@@ -416,11 +416,11 @@ all = [
     "types-tqdm>=4.66.0,<5",
     "types-requests>=2.31.0,<3",
     "types-setuptools>=75.8.0,<76",
-    "pytest>=7,<8",
+    "pytest>=7,<10",
     "pytest-cov>=4,<5",
     "pytest-asyncio>=0.23.0,<0.24",
-    "setuptools>=78.1.1,<79",
-    "gradio>=3,<4",
+    "setuptools>=78.1.1,<84",
+    "gradio>=3,<7",
     "mock>=5,<6",
     "xls2xlsx>=0.2.0",
     "tabulate>=0.9.0",
